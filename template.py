@@ -98,7 +98,7 @@ def create_project_structure():
         else:
             logging.info(f"File already exists (skipping): {filepath}")
 
-    logging.info("✅ Project structure setup completed successfully!")
+    logging.info("Project structure setup completed successfully!")
 
 if __name__ == "__main__":
     create_project_structure()
